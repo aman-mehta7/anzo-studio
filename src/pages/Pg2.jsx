@@ -510,9 +510,7 @@ const Pg2 = () => {
         </svg>
       </div>
 
-      <div className=" relative bg-black h-[2px] w-1/3 left-1/2 -translate-x-1/2 mt-[3vw] ">
-      </div>
-
+      <div className=" relative bg-black h-[2px] w-1/3 left-1/2 -translate-x-1/2 mt-[3vw] "></div>
     </>
   );
 };

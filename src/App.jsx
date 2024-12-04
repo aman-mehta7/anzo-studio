@@ -8,18 +8,20 @@ import Pg4 from './pages/Pg4'
 import Pg5 from './pages/Pg5'
 import Pg6 from './pages/Pg6'
 import Pg7 from './pages/Pg7'
+import Pg8 from './pages/Pg8'
 const App = () => {
   return (
     <div>
-      {/* <Header /> */}
-      {/* <Pg1 /> */}
-      {/* <Pg1Bottom /> */}
-      {/* <Pg2 /> */}
-      {/* <Pg3 /> */}
-      {/* <Pg4 /> */}
-      {/* <Pg5 /> */}
-      {/* <Pg6 /> */}
+      <Header />
+      <Pg1 />
+      <Pg1Bottom />
+      <Pg2 />
+      <Pg3 />
+      <Pg4 />
+      <Pg5 />
+      <Pg6 />
       <Pg7 />
+      <Pg8 />
     </div>
   )
 }
