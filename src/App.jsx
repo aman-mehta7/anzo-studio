@@ -9,19 +9,21 @@ import Pg5 from './pages/Pg5'
 import Pg6 from './pages/Pg6'
 import Pg7 from './pages/Pg7'
 import Pg8 from './pages/Pg8'
+import Pg9 from './pages/Pg9'
 const App = () => {
   return (
     <div>
-      <Header />
-      <Pg1 />
-      <Pg1Bottom />
-      <Pg2 />
-      <Pg3 />
-      <Pg4 />
-      <Pg5 />
-      <Pg6 />
-      <Pg7 />
-      <Pg8 />
+      {/* <Header /> */}
+      {/* <Pg1 /> */}
+      {/* <Pg1Bottom /> */}
+      {/* <Pg2 /> */}
+      {/* <Pg3 /> */}
+      {/* <Pg4 /> */}
+      {/* <Pg5 /> */}
+      {/* <Pg6 /> */}
+      {/* <Pg7 /> */}
+      {/* <Pg8 /> */}
+      <Pg9 />
     </div>
   )
 }

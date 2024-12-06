@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
@@ -18,16 +18,27 @@ const Pg8 = () => {
       {
         y: 0,
         rotate: 0,
-        duration: .7,
-        stagger : 1,
+        duration: 0.7,
+        stagger: 1,
         opacity: 5,
         scrollTrigger: {
           trigger: ".text",
           start: "top 90%",
           end: "top -45%",
           scrub: 2,
-          markers: true,
         },
+      }
+    );
+  });
+
+  useGSAP(() => {
+    gsap.to(
+      ".pg8img",
+      {
+        transform : `rotate(90deg)`,
+        duration: 3,
+        ease: "linear",
+        repeat: -1,
       }
     );
   });
@@ -40,6 +51,11 @@ const Pg8 = () => {
             <h1 className=" text-[20vw] font-[anzo4] leading-[15vw] pl-[5vw] pt-[8vw] text-white">
               RIGHT <br />
               <span className="opacity-50"> FIT</span>
+                <img
+                className=" pg8img ml-[5vw]"
+                  src="https://static.wixstatic.com/media/11062b_b42f6deed88e48509affdc02c3eb5b45f000.png/v1/fill/w_366,h_366,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/11062b_b42f6deed88e48509affdc02c3eb5b45f000.png"
+                  alt=""
+                />
             </h1>
             <div className="w-[50vw]">
               <div className="">
