@@ -26,7 +26,7 @@ const Pg5 = () => {
 
 
   return (
-    <div className=" textrotatepg5 h-full w-full text-center bg-white">
+    <div className=" relative textrotatepg5 h-full w-full text-center bg-white">
         <h1 className=" pg5Text text-black text-[40vw] pt-[5vw] leading-[32vw] font-[anzo4]">HELPING</h1>
         <h1 className=" pg5Text text-zinc-500 opacity-95 text-[40vw] pt-[5vw] leading-[32vw] font-[anzo4]">MY</h1>
         <h1 className=" pg5Text text-black text-[40vw] pt-[5vw] leading-[32vw] font-[anzo4]">CLIENTS</h1>

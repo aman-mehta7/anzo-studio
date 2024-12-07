@@ -40,9 +40,9 @@ const Pg1 = () => {
       onMouseMove={(e) => {
         mouseMove(e);
       }}
-      className=" h-screen w-full px-8 py-6 bg-white "
+      className=" relative h-screen w-full px-8 py-6 bg-white "
     >
-      <div className=" perspective  h-full w-full drop-shadow-2xl shadow-gray-800 shadow-2xl bg-[url(https://static.wixstatic.com/media/f1c650_678c0ceab5194893872c60fa3be4bcdc~mv2.jpg/v1/fill/w_1865,h_907,fp_0.69_0.64,q_85,usm_0.66_1.00_0.01,enc_auto/ANZO.jpg)] rounded-[5vw]">
+      <div className=" perspective  h-full w-full drop-shadow-2xl shadow-gray-800 shadow-md bg-[url(https://static.wixstatic.com/media/f1c650_678c0ceab5194893872c60fa3be4bcdc~mv2.jpg/v1/fill/w_1865,h_907,fp_0.69_0.64,q_85,usm_0.66_1.00_0.01,enc_auto/ANZO.jpg)] rounded-[5vw]">
         <img
           className="absolute px-[4.7vw] py-[3.3vw] "
           src="https://static.wixstatic.com/media/f1c650_35a00b1fe6ce403eb237970ec8d34f79~mv2.png/v1/fill/w_99,h_99,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Frame%2053.png"

@@ -43,7 +43,7 @@
 
 html,
 body{
-  background-color: rgb(255, 255, 255);
+  background-color: #FAFAFA;
 }
 
 .perspective{
@@ -55,4 +55,3 @@ body{
   position: relative;
   perspective: 5000px;
 }
-

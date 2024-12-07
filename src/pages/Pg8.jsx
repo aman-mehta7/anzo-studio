@@ -45,12 +45,13 @@ const Pg8 = () => {
 
   return (
     <div>
-      <div className=" h-[143vh] w-full px-8 py-6 bg-white ">
-        <div className=" relative h-full w-full drop-shadow-2xl shadow-gray-800 shadow-2xl bg-black rounded-[5vw]">
+      <div className=" relative h-[143vh] w-full px-8 py-6 bg-white ">
+        <div className=" relative h-full w-full bg-black rounded-[5vw]">
           <div className=" flex justify-between">
             <h1 className=" text-[20vw] font-[anzo4] leading-[15vw] pl-[5vw] pt-[8vw] text-white">
               RIGHT <br />
               <span className="opacity-50"> FIT</span>
+              {/* <video className="absolute top-[50%] left-[20%]" loop muted autoPlay src=" https://video.wixstatic.com/video/11062b_b42f6deed88e48509affdc02c3eb5b45/360p/mp4/file.mp4"></video> */}
                 <img
                 className=" pg8img ml-[5vw]"
                   src="https://static.wixstatic.com/media/11062b_b42f6deed88e48509affdc02c3eb5b45f000.png/v1/fill/w_366,h_366,al_c,q_85,usm_0.33_1.00_0.00,enc_avif,quality_auto/11062b_b42f6deed88e48509affdc02c3eb5b45f000.png"

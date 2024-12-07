@@ -46,8 +46,8 @@
 
     return (
       <div>
-        <div className=" h-[130vh] w-full px-8 py-6 bg-white ">
-          <div className=" relative h-full w-full drop-shadow-2xl shadow-gray-800 shadow-2xl bg-black rounded-[5vw]">
+        <div className=" relative h-[130vh] w-full px-8 py-6 bg-white ">
+          <div className=" relative h-full w-full  drop-shadow-sm shadow-gray-800 shadow-md  bg-black rounded-[5vw]">
             <div className=" flex items-center justify-between">
               <h1 className="text-[20vw] font-[anzo4] leading-[13.5vw] pl-[5vw] pt-[8vw] text-white">
                 <span className="opacity-50">HOW</span> <br /> CAN

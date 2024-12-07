@@ -55,7 +55,7 @@ const Pg3 = () => {
   lines();
 
   return (
-    <div className=" relative h-screen">
+    <div className=" relative h-screen w-full">
       <div className=" relative flex items-center justify-center">
         <img
           className="absolute z-20 mt-[10vw] "
