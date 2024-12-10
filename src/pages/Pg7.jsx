@@ -29,15 +29,15 @@
     useGSAP(() => {
       gsap.fromTo(
         ".img",
-        { opacity: .3,rotate: -90, x: -150},
+        { scale:1, opacity: .3,rotate: -90, x: -150},
         {
-          duration: 10,
+          scale: 1,
           x: 0,
           rotate: 0,
           scrollTrigger: {
             trigger: text.current,
-            start: "top 65%",
-            end: "top 20%",
+            start: "top 100%",
+            end: "top 0%",
             scrub: 2,
           },
         }
@@ -85,7 +85,7 @@
               </div>
             </div>
             <img
-              className=" img top-[15%] left-[19.5%] absolute object-contain h-[70%] opacity-60 "
+              className=" img top-[15%] left-[19.5%] absolute h-[70%] opacity-60 "
               src="https://static.wixstatic.com/media/f1c650_e5c1c4b281ea418a8663a17e66f283f1~mv2.png/v1/fill/w_777,h_668,al_c,q_90,enc_avif,quality_auto/triangle%203.png"
               alt=""
             />

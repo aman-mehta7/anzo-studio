@@ -1,6 +1,17 @@
-import React from "react";
+import { useGSAP } from '@gsap/react'
+import { gsap } from 'gsap'
+// import ScrollTrigger from 'gsap-trial/ScrollTrigger'
+import React from 'react'
 
 const Pg9 = () => {
+  
+//  gsap.registerPlugin(ScrollTrigger)
+
+//  useGSAP(() => {
+  
+//  })
+
+ 
   return (
     <div className=" relative min-h-[117vh] w-full ">
       <div className=" bg-fixed bg-no-repeat bg-cover w-full min-h-screen bg-[url(https://img.freepik.com/free-photo/digital-art-dark-cosmic-night-sky_23-2151700745.jpg?t=st=1733491830~exp=1733495430~hmac=f77517094c7b9530ce34aaae6209dd3c8b4095d1360d74e8fc0a94e1083dcb9f&w=1380)]"></div>
