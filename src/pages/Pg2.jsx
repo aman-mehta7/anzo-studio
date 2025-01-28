@@ -25,7 +25,7 @@ const Pg2 = () => {
 
   return (
     <>
-      <div className=" relative textrotate h-full w-full text-center bg-white">
+      <div className=" relative textrotate h-full w-full text-center ">
         <h3 className="text-black text-[1.35vw] pt-[3vw] font-[anzo2] opacity-55">
           {" "}
           © anzo.studio 2024 | designed and developed

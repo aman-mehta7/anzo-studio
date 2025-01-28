@@ -43,7 +43,7 @@
 
 html,
 body{
-  background-color: #FAFAFA;
+  background: #FAFAFA;
 }
 
 .perspective{
@@ -54,4 +54,10 @@ body{
 .textrotate{
   position: relative;
   perspective: 5000px;
+}
+
+
+#hc{
+  height: 100vh;
+  width: 100vw;
 }
