@@ -45,7 +45,7 @@ const Pg12 = () => {
   return (
     <div
       ref={target}
-      className=" pg12trigger relative h-[500vh] max-w-[100vw] bg-neutral-900"
+      className=" pg12trigger relative h-[200vh] max-w-[100vw] bg-neutral-900"
     >
       <div className=" sticky perspective2 top-0 flex max-w-[100vw] h-screen overflow-hidden">
         <motion.div style={{ x }} className="flex gap-[40vw]">
@@ -61,7 +61,7 @@ const Pg12 = () => {
             desgine
           </h1>
 
-          <h1 className=" text text-left text-[12vw] leading-[6vw] pt-[5vw] font-[anzo4] uppercase ">
+          {/* <h1 className=" text text-left text-[12vw] leading-[6vw] pt-[5vw] font-[anzo4] uppercase ">
             <span className=" text-zinc-700 left-[10%] ">impactfull</span>
             <br />
             desgine
@@ -89,7 +89,7 @@ const Pg12 = () => {
             <span className=" text-zinc-700 left-[10%] ">impactfull</span>
             <br />
             desgine
-          </h1>
+          </h1> */}
         </motion.div>
       </div>
     </div>

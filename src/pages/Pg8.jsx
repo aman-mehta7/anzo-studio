@@ -45,7 +45,7 @@ const Pg8 = () => {
 
   return (
     <div>
-      <div className=" relative *: h-[143vh] w-full px-8 py-6 bg-white ">
+      <div className=" relative h-[143vh] w-full px-8 py-6 bg-white ">
         <div className=" relative h-full w-full bg-black rounded-[5vw]">
           <div className=" flex justify-between">
             <h1 className=" text-[20vw] font-[anzo4] leading-[15vw] pl-[5vw] pt-[8vw] text-white">
