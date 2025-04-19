@@ -32,7 +32,7 @@ const Pg12 = () => {
         },
         duration: 1,
         scrollTrigger: {
-          markers: true,
+          // markers: true,
           trigger: "pg12trigger",
           scrub: 1,
           start: "top -10%",

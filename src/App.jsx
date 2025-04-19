@@ -24,21 +24,21 @@ const App = () => {
   
 
   return (
-    <div >
+    <div className="overflow-hidden" >
       <Header />
       <Pg1 />
       <Pg1Bottom />
       <Pg2 />
       <Pg3 />
-      <Pg4 />
-      <Pg5 />
+      {/* <Pg4 /> */}
+      {/* <Pg5 /> */}
       <Pg6 />
       <Pg7 />
       <Pg8 />
       <Pg9 />
       <Pg10 />
       <Pg11 />
-      <Pg12 />
+      {/* <Pg12 /> */}
       <Pg13/>
     </div>
   );

@@ -17,7 +17,7 @@ const Hero = () => {
   const mesh = useRef();
 
   const { speed} = useControls({
-    speed: { value: 0.000, min: 0.0, max: 0.09, step: 0.001 }
+    speed: { value: 0.000, min: 0.0, max: 0.09, step: 0.001 },
   });
 
 
